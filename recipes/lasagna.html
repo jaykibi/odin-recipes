@@ -3,33 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lasagna</title>
+    <title>lasagna</title>
 
     <link rel="stylesheet" href="recipes.css" />
   </head>
   <body>
-    <a href="/index.html"><h3>home</h3></a>
-    <h1>lasagna</h1>
+    <div class="card">
+      <h1 class="title">lasagna recipe</h1>
+      <div class="content">
+        <!-- image -->
+        <img
+          src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg"
+          alt="Italian Lasagna"
+        />
+        <!-- image description -->
+        <p>
+          a very yummy and unhealthy food that is guaranteed to make you
+          <strong>insulin resistant</strong>
+        </p>
 
-    <!-- image -->
-    <img
-      src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg"
-      alt="Italian Lasagna"
-    />
+        <!-- ingredients, unordered list -->
+        <p class="ingredients">
+          <em><strong>ingredients:</strong></em>
+        </p>
 
-    <!-- image description -->
-    <p>yummy <strong>lasagna</strong> description</p>
-    <!-- ingredients, unordered list -->
-    <ul>
-      <li>Beef <em>(shocker, I know)</em></li>
-      <li>marinara</li>
-      <li>pho rice noodles</li>
-    </ul>
-    <!-- steps/procedure to make dish, ordered list  -->
-    <ol>
-      <li>boil pasta</li>
-      <li>put super glue</li>
-      <li>make fertilizer</li>
-    </ol>
+        <ul class="list-ingredients">
+          <li>Beef <em>(shocker, I know)</em></li>
+          <li>marinara</li>
+          <li>pho rice noodles</li>
+        </ul>
+
+        <!-- steps/procedure to make dish, ordered list  -->
+        <p class="ingredients">
+          <em><strong>procedure:</strong></em>
+        </p>
+        <ol>
+          <li>boil pasta</li>
+          <li>put super glue</li>
+          <li>make fertilizer</li>
+        </ol>
+      </div>
+
+      <div class="button-container">
+        <a href="/index.html">close the fridge</a>
+      </div>
+    </div>
   </body>
 </html>
